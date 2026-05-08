@@ -5,10 +5,10 @@ from django.http import HttpResponse
 
 
 def index_view (request):
-    return render (request, 'website/index.html')
+    return render (request, 'Websitee/index.html')
 
 def about_view (request):
-    return render (request, 'website/about.html')
+    return render (request, 'Websitee/about.html')
 
 def contact_view (request):
-    return render (request, 'website/contact.html')
+    return render (request, 'Websitee/contact.html')
