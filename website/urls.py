@@ -1,11 +1,12 @@
 from django.contrib import admin
 from django.urls import path
-from website.views import index_view, contact_view, about_view
+from website.views import index_view, contact_view, about_view, test_view
 
 urlpatterns = [
 
     path('', index_view),
     path('contact', contact_view),
     path('about', about_view),
+    path('test', test_view)
     
 ]

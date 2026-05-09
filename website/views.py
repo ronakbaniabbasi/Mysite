@@ -12,3 +12,7 @@ def about_view (request):
 
 def contact_view (request):
     return render (request, 'Websitee/contact.html')
+
+def test_view (request):
+    context = {'name': 'Ronak', 'last_name':'Baniabbasi'}
+    return render (request, 'Websitee/test.html', context)
